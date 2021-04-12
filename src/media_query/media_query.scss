@@ -1,0 +1,46 @@
+@media (min-width: 991px) and (max-width: 1200px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .header-background {
+    .row {
+      .login-register {
+        margin-top: 24%;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .header-background {
+    .row {
+      .nav-menus {
+        margin-top: 11%;
+      }
+
+      .t4m-logo {
+        width: 195px;
+      }
+      .login-register {
+        margin-top: 4%;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .header-background {
+    .row {
+      .nav-menus {
+        margin-right: 20px;
+      }
+      .login-register {
+        position: absolute;
+        font-weight: 500;
+        color: white;
+        margin-top: -18%;
+        left: 180px;
+      }
+    }
+  }
+}

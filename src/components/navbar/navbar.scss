@@ -1,0 +1,28 @@
+.row {
+  .t4m-logo {
+    float: left;
+    margin-top: 10%;
+    width: 230px;
+  }
+
+  .nav-menus {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 7%;
+
+    .nav-sub-menu {
+      cursor: pointer;
+      margin-right: 4%;
+      font-weight: 500;
+    }
+  }
+  .login-register {
+    position: relative;
+    font-weight: 500;
+    color: white;
+    margin-top: 14%;
+    display: flex;
+    justify-content: center;
+  }
+}
