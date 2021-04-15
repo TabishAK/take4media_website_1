@@ -7,3 +7,12 @@
 li {
   list-style: none;
 }
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  margin: 6px;
+}

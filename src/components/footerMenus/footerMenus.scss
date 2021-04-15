@@ -1,0 +1,22 @@
+.footer-menus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-menus {
+  a {
+    margin: 18px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #58595b;
+    font-weight: 300;
+  }
+}
+
+.footer-menus {
+  a:hover {
+    border-bottom: 2px solid #cd6a26;
+    transition: 0.1s;
+  }
+}

@@ -26,6 +26,22 @@
       }
     }
   }
+
+  .footer {
+    input[type="text"] {
+      width: 130px !important;
+    }
+    .col-lg-5 {
+      .hell {
+        left: -90px;
+        position: absolute;
+      }
+
+      button {
+        width: 60px !important;
+      }
+    }
+  }
 }
 
 @media (max-width: 575px) {
@@ -40,6 +56,34 @@
         color: white;
         margin-top: -18%;
         left: 180px;
+      }
+    }
+
+    .Welcome-to-t4m {
+      font-size: 28px;
+    }
+
+    .DMG {
+      font-size: 18px;
+    }
+  }
+
+  .footer-menus {
+    a {
+      margin: 5px !important;
+      font-size: 12px !important;
+    }
+  }
+
+  .footer {
+    .col-lg-5 {
+      .hell {
+        margin-top: -75px;
+        left: -72px;
+        position: relative;
+      }
+      input[type="text"] {
+        width: 114px !important;
       }
     }
   }

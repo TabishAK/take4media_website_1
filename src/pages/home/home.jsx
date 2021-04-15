@@ -1,39 +1,49 @@
 import Navbar from "../../components/navbar/navbar";
+import WelcomeText from "../../components/welocmeText/welcomeText";
 import "./home.scss";
-
+import HeaderInputs from "../../components/inputs/headerInputs";
+import WhoAreWe from "../../components/WhoAreWe/whoAreWe";
+import WhatWeDo from "../../components/whatWeDo/whatWeDo";
+import FooterMenus from "./../../components/footerMenus/footerMenus";
+import Footer from "../../components/footer/footer";
 const Home = () => {
+  const returnSpace = () => {};
+
   return (
-    <div className="header-background">
-      <Navbar />
+    <div className="home">
+      <div className="header-background">
+        <Navbar />
+        <WelcomeText />
+        <HeaderInputs />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
 
-      <h2 style={{ color: "white", marginTop: "5%" }}>
-        Welocme to <span style={{ color: "#ce6a26" }}>Take4Media</span>
-      </h2>
+      <WhoAreWe />
+      <WhatWeDo />
 
-      <h5 style={{ color: "white" }}>Digital Marketing Agency</h5>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <FooterMenus />
+      <Footer />
     </div>
   );
 };
