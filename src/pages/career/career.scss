@@ -1,0 +1,28 @@
+.career {
+  .header-background-career {
+    background-image: url("../../images/header-background/3.jpg");
+    background-size: cover;
+    position: relative;
+    height: 604px;
+  }
+
+  .make-flex {
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+  }
+
+  .career-at-take4media {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+    h2 {
+      color: #f07a2a;
+
+      font-family: "Kiwi Maru";
+    }
+  }
+}

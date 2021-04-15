@@ -1,18 +1,27 @@
 @media (min-width: 991px) and (max-width: 1200px) {
+  .apply-now {
+    right: -60px !important;
+    top: 138px !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .header-background {
+  .same {
     .row {
       .login-register {
         margin-top: 24%;
       }
     }
   }
+
+  .apply-now {
+    right: -70px !important;
+    top: 100px !important;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-  .header-background {
+  .same {
     .row {
       .nav-menus {
         margin-top: 11%;
@@ -42,10 +51,26 @@
       }
     }
   }
+
+  .apply-now {
+    font-size: 13px;
+    width: 95px !important;
+    right: -67px !important;
+    top: 158px !important;
+  }
 }
 
 @media (max-width: 575px) {
-  .header-background {
+  .hiring-card p {
+    margin: 0px 28px 6px 28px !important;
+    font-size: 12px !important;
+  }
+  .hiring-card .apply-now {
+    right: -70px !important;
+    top: 45px !important;
+  }
+
+  .same {
     .row {
       .nav-menus {
         margin-right: 20px;

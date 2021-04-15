@@ -1,0 +1,19 @@
+.explore {
+  .header-background-explore {
+    background-image: url("../../images/header-background/2.jpg");
+    background-size: cover;
+    position: relative;
+    height: 587px;
+  }
+
+  h3 {
+    margin-top: 5%;
+    color: #f08542;
+    font-family: "Kiwi Maru";
+  }
+
+  .video {
+    justify-content: center;
+    display: flex;
+  }
+}

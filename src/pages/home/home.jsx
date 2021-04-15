@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <div className="header-background">
+      <div className="header-background same">
         <Navbar />
         <WelcomeText />
         <HeaderInputs />
