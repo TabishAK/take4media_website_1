@@ -1,0 +1,31 @@
+.header-background-team {
+  background-image: url("../../images/header-background/4.jpg");
+  background-size: cover;
+  position: relative;
+  height: 610px;
+}
+
+.team {
+  .heading {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: "Kiwi Maru";
+    .our-team {
+      color: #ce6a26;
+    }
+    .members {
+      color: #7eab3a;
+    }
+  }
+
+  .user-profile {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+    div {
+      margin: 25px -15px;
+    }
+  }
+}

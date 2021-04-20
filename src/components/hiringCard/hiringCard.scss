@@ -18,3 +18,18 @@
     top: 102px;
   }
 }
+
+.hiring-card:hover {
+  background: #7eab3a;
+  cursor: default;
+  p {
+    color: white;
+    transition: 0.5s;
+    transform: scale(0.9);
+  }
+  .apply-now {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+}

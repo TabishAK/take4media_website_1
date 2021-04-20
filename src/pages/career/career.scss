@@ -22,7 +22,31 @@
     h2 {
       color: #f07a2a;
 
+      font-weight: 500;
       font-family: "Kiwi Maru";
     }
+  }
+
+  .text-and-heading {
+    font-weight: 300;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 90px !important;
+  }
+
+  .hiring {
+    color: #f07a2a;
+    font-weight: 500;
+    font-family: "Kiwi Maru";
+  }
+
+  .send-resume {
+    margin-top: 80px;
+    display: inline-flex;
+    position: relative;
+    background: #7eab3a;
+    color: white;
+    width: fit-content;
+    padding: 8px 40px;
   }
 }
