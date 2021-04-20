@@ -1,7 +1,7 @@
 import { FaUserCircle } from "react-icons/fa";
-const LoginRegMenus = () => {
+const LoginRegMenus = (props) => {
   return (
-    <ul className="login-register">
+    <ul style={{ color: props.color }} className="login-register">
       <span style={{ display: "flex" }}>
         <FaUserCircle
           style={{

@@ -3,9 +3,39 @@
     right: -60px !important;
     top: 138px !important;
   }
+  .footer {
+    input[type="text"] {
+      width: 170px !important;
+    }
+    .col-lg-5 {
+      .hell {
+        left: -10px;
+        position: relative;
+      }
+
+      button {
+        width: 60px !important;
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+  .footer {
+    input[type="text"] {
+      width: 135px !important;
+    }
+    .col-lg-5 {
+      .hell {
+        left: -10px;
+        position: relative;
+      }
+
+      button {
+        width: 65px !important;
+      }
+    }
+  }
   .same {
     .row {
       .login-register {
@@ -42,12 +72,14 @@
     }
     .col-lg-5 {
       .hell {
-        left: -90px;
-        position: absolute;
+        left: -10px;
+        position: relative;
       }
-
+      input {
+        margin-left: 40px !important;
+      }
       button {
-        width: 60px !important;
+        width: 52px !important;
       }
     }
   }
@@ -107,8 +139,13 @@
         left: -72px;
         position: relative;
       }
+
       input[type="text"] {
-        width: 114px !important;
+        width: 136px !important;
+        margin-left: 160px !important;
+      }
+      button {
+        width: 55px !important;
       }
     }
   }

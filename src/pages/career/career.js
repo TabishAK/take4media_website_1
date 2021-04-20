@@ -1,11 +1,11 @@
 import Footer from "../../components/footer/footer";
 import FooterMenus from "../../components/footerMenus/footerMenus";
-import HiringCard from "../../components/hiringCard/hiringCard";
 import Navbar from "./../../components/navbar/navbar";
 import Logo from "../../images/logos/T4M-Logo.png";
 import Line from "../../images/vectors/Line-2.png";
 
 import "./career.scss";
+import HiringCardPanel from "../../components/hiringCardPanel/hiringCardPanel";
 
 const Career = () => {
   return (
@@ -67,19 +67,7 @@ const Career = () => {
 
       <h2 className="hiring mt-5"> We Are Now Hiring </h2>
 
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-6">
-            <HiringCard />
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-6">
-            <HiringCard />
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-6">
-            <HiringCard />
-          </div>
-        </div>
-      </div>
+      <HiringCardPanel />
 
       <div className="send-resume">Send Resume At</div>
       <h6

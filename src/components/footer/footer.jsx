@@ -1,6 +1,14 @@
 import "./footer.scss";
 import Roll from "react-reveal/Roll";
 import t4m_logo from "../../images/logos/T4M-Logo.png";
+import { FiFacebook } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
+import { FiYoutube } from "react-icons/fi";
+
+import { FiTwitter } from "react-icons/fi";
+
+import { IconContext } from "react-icons";
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -27,6 +35,52 @@ const Footer = () => {
 
               <input placeholder="  Email" type="text" name="fname" value="" />
               <button className="btn-sm">Submit</button>
+            </div>
+            <div className="icons mt-2 ml-5">
+              <FiFacebook
+                style={{
+                  padding: "3px",
+                  height: "30px",
+                  color: "white",
+                  border: "1px solid white",
+                  borderRadius: "5px",
+                  width: "30px",
+                  marginRight: "10px",
+                }}
+              />
+              <FiInstagram
+                style={{
+                  padding: "3px",
+                  height: "30px",
+                  color: "white",
+                  border: "1px solid white",
+                  borderRadius: "5px",
+                  width: "30px",
+                  marginRight: "10px",
+                }}
+              />
+              <FiTwitter
+                style={{
+                  padding: "3px",
+                  height: "30px",
+                  color: "white",
+                  border: "1px solid white",
+                  borderRadius: "5px",
+                  width: "30px",
+                  marginRight: "10px",
+                }}
+              />
+              <FiYoutube
+                style={{
+                  padding: "3px",
+                  height: "30px",
+                  color: "white",
+                  border: "1px solid white",
+                  borderRadius: "5px",
+                  width: "30px",
+                  marginRight: "10px",
+                }}
+              />
             </div>
           </div>
         </div>

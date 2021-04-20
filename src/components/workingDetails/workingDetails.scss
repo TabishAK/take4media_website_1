@@ -1,0 +1,12 @@
+.working-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  div {
+    margin: 5%;
+    img {
+      width: 75%;
+    }
+  }
+}

@@ -47,13 +47,13 @@
     }
 
     input {
-      margin-left: 115px !important;
+      margin-left: 115px;
     }
 
     input[type="text"] {
       font-size: 12px;
       border-radius: 80px 0px 0px 80px;
-      width: 150px;
+      width: 195px;
       padding: 9px;
       margin: 8px 0;
       box-sizing: border-box;
@@ -75,7 +75,12 @@
       border-radius: 0px 16px 16px 0px;
       color: white;
       font-size: 12px;
-      width: 50px;
+      width: 75px;
     }
   }
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
 }

@@ -6,6 +6,7 @@ import WhoAreWe from "../../components/WhoAreWe/whoAreWe";
 import WhatWeDo from "../../components/whatWeDo/whatWeDo";
 import FooterMenus from "./../../components/footerMenus/footerMenus";
 import Footer from "../../components/footer/footer";
+import WorkingDetails from "./../../components/workingDetails/workingDetails";
 const Home = () => {
   const returnSpace = () => {};
 
@@ -40,6 +41,8 @@ const Home = () => {
       </div>
 
       <WhoAreWe />
+      <WorkingDetails />
+
       <WhatWeDo />
 
       <FooterMenus />
