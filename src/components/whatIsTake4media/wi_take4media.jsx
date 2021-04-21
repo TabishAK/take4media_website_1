@@ -5,7 +5,7 @@ const WhatIsTake4Meda = (props) => {
     <div className="container">
       {props.isShow ? (
         <>
-          <h3>Take4Media?</h3>{" "}
+          <h3>Take4Media?</h3>
           <img
             src={Line2}
             style={{

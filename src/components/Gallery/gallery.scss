@@ -1,0 +1,16 @@
+.posters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 12%;
+  div {
+    margin: 1px;
+  }
+}
+
+.MuiPagination-ul {
+  justify-content: center;
+}
+.MuiPaginationItem-page.Mui-selected {
+  background-color: #b2d883 !important;
+}

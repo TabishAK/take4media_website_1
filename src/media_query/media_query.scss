@@ -93,6 +93,16 @@
 }
 
 @media (max-width: 575px) {
+  .posters {
+    img {
+      height: 130px !important;
+    }
+  }
+
+  .setWidth {
+    height: 270px !important;
+  }
+
   .hiring-card p {
     margin: 0px 28px 6px 28px !important;
     font-size: 12px !important;

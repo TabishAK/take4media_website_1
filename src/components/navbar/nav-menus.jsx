@@ -2,35 +2,35 @@ import { Link } from "react-router-dom";
 
 const NavMenus = (props) => {
   return (
-    <ul style={{ color: props.color }} className="nav-menus">
+    <ul className="nav-menus">
       <li className="nav-sub-menu">
         <Link to="/">
-          <a>Home</a>
+          <a style={{ color: props.color }}>Home</a>
         </Link>
       </li>
       <li className="nav-sub-menu">
         <Link to="/explore">
-          <a>Explore</a>
+          <a style={{ color: props.color }}>Explore</a>
         </Link>
       </li>
       <li className="nav-sub-menu">
         <Link to="/careers">
-          <a>Careers</a>
+          <a style={{ color: props.color }}>Careers</a>
         </Link>
       </li>
       <li className="nav-sub-menu">
         <Link to="#">
-          <a>Pages</a>
+          <a style={{ color: props.color }}>Pages</a>
         </Link>
       </li>
       <li className="nav-sub-menu">
         <Link to="/team">
-          <a>Team</a>
+          <a style={{ color: props.color }}>Team</a>
         </Link>
       </li>
       <li className="nav-sub-menu">
         <Link to="/contact-us">
-          <a>Contact Us</a>
+          <a style={{ color: props.color }}>Contact Us</a>
         </Link>
       </li>
     </ul>

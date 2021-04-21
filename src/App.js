@@ -7,6 +7,9 @@ import Career from "./pages/career/career";
 import Team from "./pages/team/team";
 import ContactUs from "./pages/contactUs/contactUs";
 import { Route } from "react-router";
+import ArtDesign from "./pages/work/artDesign";
+import SocialMediaManaging from "./pages/work/socialMediaManaging";
+import Photography from "./pages/work/photography";
 function App() {
   return (
     <div className="App">
@@ -15,6 +18,9 @@ function App() {
       <Route path="/careers" component={Career} />
       <Route path="/team" component={Team} />
       <Route path="/contact-us" component={ContactUs} />
+      <Route path="/artDesign" component={ArtDesign} />
+      <Route path="/socialMedia" component={SocialMediaManaging} />
+      <Route path="/photography" component={Photography} />
     </div>
   );
 }

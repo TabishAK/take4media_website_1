@@ -8,7 +8,7 @@ const WhatWeDo = () => {
   return (
     <React.Fragment>
       <HeadingWithVectors heading="WHAT WE DO?" />
-      <div style={{ background: "gainsboro" }}>
+      <div className="mb-5" style={{ background: "gainsboro" }}>
         <LogoPanel />
       </div>
 
