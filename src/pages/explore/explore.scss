@@ -17,3 +17,14 @@
     display: flex;
   }
 }
+
+.forHover:hover {
+  h3 {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  img {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+}

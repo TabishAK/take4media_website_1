@@ -26,7 +26,12 @@ export default function BasicPagination({
   }
 
   return (
-    <div className={classes.root}>
+    <div
+      style={
+        pageNumbers.length === 1 ? { display: "none" } : { display: "block" }
+      }
+      className={classes.root}
+    >
       <Pagination
         count={pageNumbers.length}
         color="#9bcc58"

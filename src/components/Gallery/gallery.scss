@@ -4,7 +4,10 @@
   justify-content: center;
   margin-bottom: 12%;
   div {
-    margin: 1px;
+    img {
+      height: 245px;
+    }
+    margin: 10px;
   }
 }
 
@@ -13,4 +16,44 @@
 }
 .MuiPaginationItem-page.Mui-selected {
   background-color: #b2d883 !important;
+}
+
+.photographs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 12%;
+  div {
+    margin: 12px;
+
+    img {
+      width: 305px;
+    }
+  }
+}
+
+.video-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 12%;
+  div {
+    margin: 14px;
+    width: 20rem !important;
+    height: 212px !important;
+    video {
+      width: 106% !important;
+      height: 112% !important;
+      border: none;
+      outline: none;
+    }
+    .react-player__preview {
+      .react-player__shadow {
+        display: none !important;
+      }
+    }
+    img {
+      width: 305px;
+    }
+  }
 }

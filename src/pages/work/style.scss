@@ -1,0 +1,12 @@
+.social-media-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  div {
+    margin: 15px;
+    img {
+      width: 20rem;
+    }
+  }
+}

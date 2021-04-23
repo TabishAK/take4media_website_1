@@ -4,53 +4,64 @@ import logo3 from "../../images/logos_what_weDo/3.png";
 import logo4 from "../../images/logos_what_weDo/4.png";
 import logo5 from "../../images/logos_what_weDo/5.png";
 import Bounce from "react-reveal/Bounce";
+import { Link } from "react-router-dom";
 
 const LogoPanel = () => {
   return (
     <div className="logos_panel mt-5">
       <Bounce left>
         <div>
-          <img
-            src={logo1}
-            style={{ width: "90%", cursor: "pointer" }}
-            alt=""
-          ></img>
+          <Link to="/artDesign">
+            <img
+              src={logo1}
+              style={{ width: "90%", cursor: "pointer" }}
+              alt=""
+            />
+          </Link>
         </div>
       </Bounce>
       <Bounce top>
         <div>
-          <img
-            src={logo2}
-            style={{ width: "90%", cursor: "pointer" }}
-            alt=""
-          ></img>
+          <Link to="/artVideoFrame">
+            <img
+              src={logo2}
+              style={{ width: "90%", cursor: "pointer" }}
+              alt=""
+            />
+          </Link>
         </div>
       </Bounce>
       <Bounce>
         <div>
-          <img
-            src={logo3}
-            style={{ width: "90%", cursor: "pointer" }}
-            alt=""
-          ></img>
+          <Link to="/socialMedia">
+            <img
+              src={logo3}
+              style={{ width: "90%", cursor: "pointer" }}
+              alt=""
+            />
+          </Link>
         </div>
       </Bounce>
       <Bounce bottom>
         <div>
-          <img
-            src={logo4}
-            style={{ width: "90%", cursor: "pointer" }}
-            alt=""
-          ></img>
+          <Link to="/photography">
+            <img
+              src={logo4}
+              style={{ width: "90%", cursor: "pointer" }}
+              alt=""
+            />
+          </Link>
         </div>
       </Bounce>
       <Bounce right>
         <div>
-          <img
-            src={logo5}
-            style={{ width: "90%", cursor: "pointer" }}
-            alt=""
-          ></img>
+          <Link to="/webSolutions">
+            <img
+              src={logo5}
+              style={{ width: "90%", cursor: "pointer" }}
+              alt=""
+            />
+          </Link>
         </div>
       </Bounce>
     </div>

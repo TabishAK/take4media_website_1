@@ -21,11 +21,11 @@ import poster_16 from "../../images/posters/Opt-16.jpg";
 import poster_17 from "../../images/posters/Opt-17.jpg";
 import poster_18 from "../../images/posters/Opt-18.jpg";
 import poster_19 from "../../images/posters/Opt-19.jpg";
-
 import Gallery from "../../components/Gallery/gallery";
 import Pagination from "./../../components/pagination/pagination";
 import FooterMenus from "./../../components/footerMenus/footerMenus";
 import Footer from "./../../components/footer/footer";
+import Wobble from "react-reveal/Wobble";
 
 const ArtDesign = () => {
   const [pictures] = useState([
@@ -62,17 +62,23 @@ const ArtDesign = () => {
 
   const paginate = (prev, curr) => setCurrentPage(curr);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar color="black" />
-      <img className="mt-5 mb-5 setWidth" src={Art_Design} alt="art-design" />
+      <Wobble>
+        <img className="mt-5 mb-5 setWidth" src={Art_Design} alt="art-design" />
+      </Wobble>
       <KiwiMaruHeadingWithLine heading="Work" line="line-2" width="25%" />
       <Pagination
         imagesPerPage={imagesPerPage}
         totalImages={pictures.length}
         paginate={paginate}
       />
-      <Gallery pictures={currentPictures} />
+      <Gallery pictures={currentPictures} className="posters" />
       <FooterMenus />
       <Footer />
     </>

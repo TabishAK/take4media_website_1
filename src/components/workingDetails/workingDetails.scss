@@ -9,4 +9,25 @@
       width: 65%;
     }
   }
+
+  .location:hover {
+    img {
+      transform: scale(1.2) !important;
+      transition: 0.5s !important;
+    }
+  }
+
+  .phone:hover {
+    img {
+      transform: scale(1.2) !important;
+      transition: 0.5s !important;
+    }
+  }
+
+  .clock:hover {
+    img {
+      transform: scale(1.2) !important;
+      transition: 0.5s !important;
+    }
+  }
 }

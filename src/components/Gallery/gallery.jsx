@@ -1,10 +1,34 @@
 import "./gallery.scss";
-const Gallery = ({ pictures }) => {
-  return (
-    <div className="posters mt-5 ">
-      {pictures.map((pic) => (
-        <div className="mr-4 mb-4 ml-4">
-          <img style={{ height: "245px" }} src={pic} alt="poster" />
+import ReactPlayer from "react-player";
+import { useState, useEffect } from "react";
+
+const Gallery = (props) => {
+  const config = {
+    attributes: {
+      disablePictureInPicture: true,
+      controlsList: "nodownload",
+    },
+  };
+
+  return props.type == "videos" ? (
+    <div className={`${props.className}` + " mt-5"}>
+      {props.pictures.map((pic) => (
+        <ReactPlayer
+          url={pic.video}
+          width="100%"
+          height="500px"
+          playing={true}
+          controls
+          config={config}
+          light={pic.pic}
+        />
+      ))}
+    </div>
+  ) : (
+    <div className={`${props.className}` + " mt-5"}>
+      {props.pictures.map((pic) => (
+        <div>
+          <img src={pic} alt="poster" />
         </div>
       ))}
     </div>
