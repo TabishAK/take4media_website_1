@@ -12,6 +12,8 @@ import Photography from "./pages/work/photography";
 import SocialMediaManaging from "./pages/work/socialMediaManaging";
 import ArtDesign from "./pages/work/artDesign";
 import WebServices from "./pages/work/webServices";
+import Exp from "./pages/exp";
+import { useEffect } from "react";
 function App() {
   return (
     <div className="App">

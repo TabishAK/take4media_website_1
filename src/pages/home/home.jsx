@@ -7,47 +7,59 @@ import WhatWeDo from "../../components/whatWeDo/whatWeDo";
 import FooterMenus from "./../../components/footerMenus/footerMenus";
 import Footer from "../../components/footer/footer";
 import WorkingDetails from "./../../components/workingDetails/workingDetails";
+import Exp from "./../exp";
+import { useState } from "react";
+import { useEffect } from "react";
+
 const Home = () => {
-  const returnSpace = () => {};
+  const [spinner, setSpinner] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setSpinner(false));
+  }, []);
 
   return (
-    <div className="home">
-      <div className="header-background same">
-        <Navbar />
-        <WelcomeText />
-        <HeaderInputs />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+    <>
+      {!spinner && <Exp />}
+
+      <div className="home">
+        <div className="header-background same">
+          <Navbar />
+          <WelcomeText />
+          <HeaderInputs />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <WhoAreWe />
+        <WorkingDetails />
+
+        <WhatWeDo />
+
+        <FooterMenus />
+        <Footer />
       </div>
-
-      <WhoAreWe />
-      <WorkingDetails />
-
-      <WhatWeDo />
-
-      <FooterMenus />
-      <Footer />
-    </div>
+    </>
   );
 };
 
