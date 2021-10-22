@@ -16,7 +16,6 @@
     justify-content: center;
     display: flex;
   }
-  animation: expand 0.9s ease-in-out forwards 0.3s;
 }
 
 .forHover:hover {
@@ -27,14 +26,5 @@
   img {
     transform: scale(1.1);
     transition: 0.5s;
-  }
-}
-
-@keyframes expand {
-  0% {
-    transform: translateX(2800px);
-  }
-  100% {
-    transform: translateX(0px);
   }
 }

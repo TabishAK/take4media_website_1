@@ -7,7 +7,7 @@ import Career from "./pages/career/career";
 import Team from "./pages/team/team";
 import ContactUs from "./pages/contactUs/contactUs";
 import ArtVideoFrame from "./pages/work/artVideoFrame";
-import { Route } from "react-router";
+import { Route, Switch } from "react-router";
 import Photography from "./pages/work/photography";
 import SocialMediaManaging from "./pages/work/socialMediaManaging";
 import ArtDesign from "./pages/work/artDesign";
@@ -17,16 +17,18 @@ import { useEffect } from "react";
 function App() {
   return (
     <div className="App">
-      <Route exact path="/" component={Home} />
-      <Route path="/explore" component={Explore} />
-      <Route path="/careers" component={Career} />
-      <Route path="/team" component={Team} />
-      <Route path="/contact-us" component={ContactUs} />
-      <Route path="/webSolutions" component={WebServices} />
-      <Route path="/artVideoFrame" component={ArtVideoFrame} />
-      <Route path="/artDesign" component={ArtDesign} />
-      <Route path="/socialMedia" component={SocialMediaManaging} />
-      <Route path="/photography" component={Photography} />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/explore" component={Explore} />
+        <Route path="/careers" component={Career} />
+        <Route path="/team" component={Team} />
+        <Route path="/contact-us" component={ContactUs} />
+        <Route path="/webSolutions" component={WebServices} />
+        <Route path="/artVideoFrame" component={ArtVideoFrame} />
+        <Route path="/artDesign" component={ArtDesign} />
+        <Route path="/socialMedia" component={SocialMediaManaging} />
+        <Route path="/photography" component={Photography} />
+      </Switch>
     </div>
   );
 }

@@ -11,27 +11,32 @@ html {
 .left-layer {
   z-index: 1;
   position: absolute;
-  width: 30%;
+  width: 40%;
   height: 100%;
-  left: -100%;
+  left: -40%;
   background: #cd6a26;
   /* transition: all 0.01s cubic-bezier(0.645, 0.045, 0.355, 1); */
-  /* transition-delay: 1.2s; */
-  animation: slideIn 1.5s ease-in-out forwards 0.6s;
+  /* transition-delay: 0.9s !important; */
+  animation: slideIn 0.5s ease-in-out forwards 0.1s;
 }
 .left-layer--2 {
   background: gray;
-  /* transition-delay: 0.8s; */
-  animation: slideIn 1.5s ease-in-out forwards 0.68s;
+
+  /* transition: all 0.01s cubic-bezier(0.645, 0.045, 0.355, 1); */
+  /* transition-delay: 0.9s !important; */
+  animation: slideIn 0.5s ease-in-out forwards 0.2s;
 }
 .left-layer--3 {
+  /* transition: all 0.01s cubic-bezier(0.645, 0.045, 0.355, 1); */
+
   background: #82b23c;
-  /* transition-delay: 0.2s; */
-  animation: slideIn 1.5s ease-in-out forwards 0.76s;
+  /* transition-delay: 0.9s !important; */
+  animation: slideIn 0.5s ease-in-out forwards 0.31s;
 }
+
 @keyframes slideIn {
   0% {
-    transform: translateX(2800px);
+    transform: translateX(1800px);
   }
   100% {
     transform: translateX(0px);

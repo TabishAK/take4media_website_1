@@ -12,18 +12,13 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 const Home = () => {
-  const [spinner, setSpinner] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => setSpinner(false));
-  }, []);
-
   return (
     <>
-      {!spinner && <Exp />}
-
-      <div className="home">
-        <div className="header-background same">
+      <div className="home" style={{ backgroundColor: "white" }}>
+        <div
+          className="header-background same"
+          style={{ backgroundColor: "black" }}
+        >
           <Navbar />
           <WelcomeText />
           <HeaderInputs />

@@ -6,19 +6,10 @@ import { Player } from "video-react";
 import FooterMenus from "../../components/footerMenus/footerMenus";
 import Footer from "../../components/footer/footer";
 import haha from "../../images/header-background/3.jpg";
-import { useEffect, useState } from "react";
-import Exp from "./../exp";
 
 const Explore = () => {
-  const [spinner, setSpinner] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => setSpinner(false), -100);
-  });
-
   return (
     <>
-      {!spinner === true ? <Exp /> : ""}
       <div className="explore">
         <div className="header-background-explore same">
           <Navbar />

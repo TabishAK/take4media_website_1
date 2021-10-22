@@ -27,7 +27,7 @@
 .App-link {
   color: #61dafb;
 }
-
+/* 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,9 +35,22 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .theme-heading {
   font-family: "Kiwi Maru";
   color: #f07a2a;
 }
+/* 
+.explore {
+  animation: dasd 0.8s ease-in-out forwards 0.02s;
+}
+
+@keyframes slideIn {
+  100% {
+    transform: translateX(0px);
+  }
+  0% {
+    transform: translateX(1400px);
+  }
+} */
